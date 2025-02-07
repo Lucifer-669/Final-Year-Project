@@ -156,6 +156,9 @@
   - 总体来看，模型在所有类别上的召回率在低置信度区间内较高，但在高置信度区间下降明显，表明模型在高置信度下的召回性能不稳定。
 
   ![R_curve](https://github.com/user-attachments/assets/b2c9837a-dc36-4b0b-88c0-a8370d3f66d8)
+ ### 5. UI界面
+  ![image](https://github.com/user-attachments/assets/0126ed18-d624-4b8b-83f2-b131a759a624)
+
 
 ### 综合评价
 1. **模型性能良好但有改进空间**：
