@@ -183,13 +183,8 @@
 - **存储**: 512 GB 固态硬盘（西部数据）（用于存储数据集与代码）
 
 导致模型的精度不能到达非常高的水平，感谢您的理解和支持！
-### 作者
-- **冯诗楠**
-- **邮箱：18398998558@163.com**
 
-
-🚨 智能摔倒检测系统
-# 更新日志
+# 🚨 智能摔倒检测系统更新日志
 
 ## 2025年2月15日
 
@@ -223,7 +218,7 @@
 
 ---
 ## 2025年2月18日
-- **图1** ![image](https://github.com/user-attachments/assets/9d524ef3-3cc7-496a-b351-63e3680afb4d)
+- **图1**![image](https://github.com/user-attachments/assets/9d524ef3-3cc7-496a-b351-63e3680afb4d)
 - **图2**![image](https://github.com/user-attachments/assets/15a911d6-b49d-4705-b002-9b369d3ee938)
 - **图3**![image](https://github.com/user-attachments/assets/a1c0cab0-e78f-4d22-b2d5-108ecfe78f52)
 - **图4**![image](https://github.com/user-attachments/assets/01744d3f-7fd3-476c-9aad-edb83dd153ed)
@@ -327,8 +322,26 @@
 6. **发送短信警报**：连接阿里云短信服务，点击后可发送短信通知相关人员。
 
 ---
-版权所有 © 西南石油大学 冯诗楠  
-📧 联系邮箱：18398998558@163.com
+## 2025年3月9日 fall_detection(ver4)
+🎉 **阿里云短信服务**：迎来重大更新，带来更强大的功能和更出色的用户体验！
+![效果演示](https://github.com/user-attachments/assets/f455a792-b1b4-45a1-a451-c1149a9400e4)
+- **短信服务说明**：请将阿里云的 AccessKey ID 和 AccessKey Secret保存为.env文件存储在项目的根目录中，防止放置在代码中造反泄露。
+- **创建步骤**：
+1. 创建 .env 文件
+2. 在你的项目根目录下（即与代码文件相同的目录），创建一个名为 .env 的文件。
+3. 如果你使用的是 Windows 系统，可以通过以下方式创建：
+4. 打开项目文件夹。
+5. 右键点击空白处，选择 新建 > 文本文档。
+6. 将文件重命名为 .env（注意文件名以点开头，没有扩展名）。
+7. 如果系统提示“如果改变文件扩展名，可能会导致文件不可用”，点击 是。
+8. 打开 .env 文件（可以使用任何文本编辑器，如记事本、VS Code、Sublime Text 等）。
+9. 输入阿里云配置：
+- ALIYUN_KEY_ID=your_access_key_id（这里换成你的keyID）
+- ALIYUN_KEY_SECRET=your_access_key_secret（同上）
+- 在代码中加载 .env 文件，在 Python 代码中，使用 python-dotenv 库加载 .env 文件中的环境变量
+### 作者
+- **版权所有 © 西南石油大学 冯诗楠**  
+- **📧 联系邮箱：18398998558@163.com**
 
 
 
